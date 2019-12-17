@@ -1,7 +1,9 @@
 ## simple value check
 > Install
 
+~~~
 npm install simple-value-check
+~~~
 
 > Usage
 
