@@ -1,14 +1,24 @@
 {
   "name": "simple-value-check",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "javascript value check",
+  "main": "dist/SimpleValueCheck.js",
   "scripts": {
-    "build": "webpack -w",
-    "dev": "webpack-dev-server --open --progress",
+    "build": "webpack --mode=production",
+    "dev": "webpack-dev-server --open --progress --mode=development",
     "test": "jest --watchAll --verbose"
   },
-  "author": "",
+  "keywords": [
+    "javascript value check",
+    "simple value check",
+    "js value check",
+    "check javascript value check"
+  ],
+  "author": {
+    "name": "Jun k",
+    "email": "k.developer87@gmail.com",
+    "url": "https://github.com/kdeveloper87"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.7.5",
@@ -21,5 +31,14 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdeveloper87/simple-value-check.git"
+  },
+  "homepage": "https://github.com/kdeveloper87/simple-value-check",
+  "bugs": {
+    "url": "https://github.com/kdeveloper87/simple-value-check/issues",
+    "email": "k.developer87@gmail.com"
   }
 }

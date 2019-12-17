@@ -1,11 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  entry: ['@babel/polyfill', './src/js/index.js'],
+  entry: './src/js/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist/js'),
-    publicPath: '/dist/js',
-    filename: 'bundle.js'
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: '/dist',
+    filename: 'SimpleValueCheck.js',
+    libraryTarget: 'umd',
   },
   module: {
     rules: [
@@ -26,5 +27,4 @@ module.exports = {
   },
   devtool: 'source-map',
   // https://webpack.js.org/concepts/mode/#mode-development
-  mode: 'development'
 };
