@@ -6,7 +6,7 @@ npm install simple-value-check
 > Usage
 
 ```javascript
-import vk from './simple-value-check';
+import vk from 'simple-value-check';
 
 console.log( vk.isObject({}) );
 console.log( vk.isFunction(()=>{}) );
