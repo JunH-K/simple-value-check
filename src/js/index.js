@@ -1,7 +1,3 @@
-function sum(a, b) {
-  return a + b;
-}
+import vk from "./SimpleValueCheck";
 
-export {
-  sum,
-}
+export default vk;
