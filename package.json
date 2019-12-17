@@ -1,6 +1,6 @@
 {
   "name": "simple-value-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "javascript value check",
   "main": "dist/SimpleValueCheck.js",
   "scripts": {
@@ -12,7 +12,9 @@
     "javascript value check",
     "simple value check",
     "js value check",
-    "check javascript value check"
+    "check javascript value check",
+    "javascript type check",
+    "javascript check type"
   ],
   "author": {
     "name": "Jun k",
