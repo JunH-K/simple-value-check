@@ -1,4 +1,7 @@
 ## simple value check
+
+[![HitCount](http://hits.dwyl.io/JunH-K/simple-value-check.svg)](http://hits.dwyl.io/JunH-K/simple-value-check)
+
 > Install
 
 ~~~
